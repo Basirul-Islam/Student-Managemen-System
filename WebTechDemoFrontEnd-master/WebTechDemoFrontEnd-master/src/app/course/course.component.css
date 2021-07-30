@@ -1,0 +1,35 @@
+.container{
+    width: 900px;
+    min-height: 1200px;
+    display: flex; 
+}
+
+.content-background {
+    /* color: rgb(0, 0, 0); */
+    padding-bottom: 15px;
+}
+
+.content-background-padding{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    
+    /* background-color: rgba(123, 250, 123, 0.171); */
+    border-radius: 10px;
+}
+
+
+.button-style{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    float: right;
+}
+
+.back-button-style{
+    background-color: rgb(148, 48, 48);
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+

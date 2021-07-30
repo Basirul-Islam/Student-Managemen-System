@@ -1,0 +1,20 @@
+<br>
+<div>
+    <img src="https://www.clipartmax.com/png/middle/52-525722_school-management-system-student-attendance-management-system.png" height="100" class="mx-auto d-block">
+</div>
+<form [formGroup]="service.formModel" #form="ngForm" class="mb-4" autocomplete="off" (submit)="signIn()">
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" formControlName="Email">
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" formControlName="Password">
+    </div>
+    <div class="form-row">
+        <div class="form-group">
+            <br>
+            <button type="submit" class="btn btn-sm btn-primary" style="background-color: darkgoldenrod;">Sign In</button>
+        </div>
+    </div>
+</form>

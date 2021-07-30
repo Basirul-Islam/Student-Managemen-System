@@ -1,0 +1,14 @@
+<div class="container">    
+  <div class="row content">
+    <div class="col" style="margin-left: 300px; text-align: center;">
+      <div routerLink='/admin/homepage' routerLinkActive='active' class="btn-primary" style="padding: 10px; margin: 15px; border-radius: 10px;"> Home </div>
+      <div routerLink='/admin/students-management/view-list' routerLinkActive='active' class="btn-primary"  style="padding: 10px; margin: 15px; border-radius: 10px;">Students Management</div>
+      <div routerLink='/course/stream' routerLinkActive='active' class="btn-primary"  style="padding: 10px; margin: 15px; border-radius: 10px;">Attendance</div>
+      <div routerLink='/course/attendance-report' routerLinkActive='active' class="btn-primary" style="padding: 10px; margin: 15px; border-radius: 10px;">Attendance Report</div>
+    </div>
+    
+  </div>
+</div>
+<div class="col"> 
+  <router-outlet></router-outlet>
+</div>

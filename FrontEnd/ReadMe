@@ -1,5 +1,0 @@
-Front End
- If there exist node_modules and .vs folders in the project directory, then remove these folders first. 
-Install dependencies: npm install.
-Run the project using Visual Studio Code: ng serve-open
-

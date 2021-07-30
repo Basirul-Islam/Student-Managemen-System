@@ -1,0 +1,19 @@
+<mat-toolbar>
+  
+
+  
+
+    <a mat-button routerLink="welcome-page" *ngIf="notLoggedIn">Home</a>
+    <a mat-button routerLink="student-login/loginModule" *ngIf="notLoggedIn">Student LogIn</a>
+    <a mat-button routerLink="admin-login/loginModule" *ngIf="notLoggedIn">Admin LogIn</a>
+    <a mat-button routerLink="welcome-page" *ngIf="loggedIn"><mat-icon>account_circle</mat-icon>{{userName}}</a>
+    <!-- <a mat-raised-button color="accent" routerLink="welcome-page" *ngIf="notLoggedIn">More</a> -->
+    <a mat-raised-button color="gray" *ngIf="loggedIn" (click)="sign_out()">Sign Out</a>
+
+    <div class="spacer"></div>
+
+    <span>
+        <img src="https://png.pngtree.com/png-clipart/20200709/original/pngtree-simple-success-education-logo-png-image_3629987.jpg" height="40">
+        Student Management System 
+    </span>
+</mat-toolbar>

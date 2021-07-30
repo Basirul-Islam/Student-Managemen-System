@@ -1,0 +1,16 @@
+.spacer{
+    flex: 1 1 auto ;
+}
+
+.mat-toolbar {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+ }
+
+ .top-bar-style{
+     position: fixed;
+ }
+
+ .top-bar-style2{
+    position: absolute;
+}
